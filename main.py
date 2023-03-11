@@ -12,6 +12,11 @@ class cat():
         self.chill -= 0.5
     def chill(self):
         print("cat chill")
-        self.chill =+ 1
+        self.chill += 2
+    def run(self):
+        print("cat runing")
+        self.chill -= 1
+
+
 
 
